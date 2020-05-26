@@ -24,6 +24,10 @@ body{
     padding: 32px;
 }
 
+.person{
+  display: flex;
+  align-items: flex-start;
+}
 
 .person__name{
   font-size: 36px;
@@ -41,6 +45,10 @@ body{
   margin: 0;
   font-style: italic;
   font-weight: normal;
+}
+
+.person__picture{
+  margin-right: 32px;
 }
 
 .person__description{
